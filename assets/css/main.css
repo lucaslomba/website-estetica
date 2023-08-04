@@ -647,6 +647,22 @@ section {
   height: 220px;
 }
 
+@media only screen and (max-width: 600px) {
+  .services .details {
+    padding: 50px 30px;
+    margin: -100px 30px 0 30px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    position: relative;
+    background: #ffffffe9;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 0 25px #000000e0;
+    height: auto!important;
+  }
+}
+
+
 .services .details .icon {
   margin: 0;
   width: 72px;
